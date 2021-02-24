@@ -10,10 +10,10 @@ image1.setAttribute("src", randomDiceImage1);
 var image2 = document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2);
 
 if(randomNumber1 > randomNumber2){
-document.querySelector("h1").innerHTML = "😎Amr is The WINNER!"
+document.querySelector("h1").innerHTML = " 🤸‍♂️ Amr is The WINNER!"
 }
 else if(randomNumber1 < randomNumber2){
-document.querySelector("h1").innerHTML = "Poki is The WINNER!💋"
+document.querySelector("h1").innerHTML = "Poki is The WINNER!💃"
 }
 else{
 document.querySelector("h1").innerHTML = "DRAW!"
